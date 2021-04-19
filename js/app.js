@@ -50,4 +50,32 @@ function init () {
     new TypeWriter(txtElement, words, wait);
 }
 
+function names () {
+     names = document.getElementById('name').style.color = 'red';
+     names.style.color = 'red';
+    
+     var name;    
+    
+    document.getElementById('Main-footer').style.color = 'blue';
 
+    document.body.style.background = "#f3f3f3";
+}
+let footers = document.getElementById(".name");
+
+footers.addEventListener("mouseenter", function ( event ){
+    event.target.style.color = "purple"
+
+    setTimeout(function() {
+        event.target.style.color = "";
+      }, 500);
+    }, false);
+    footers.addEventListener("mouseover", function( event ) {
+        // highlight the mouseover target
+        event.target.style.color = "orange";
+      
+        // reset the color after a short delay
+        setTimeout(function() {
+          event.target.style.color = "";
+        }, 500);
+      }, false);
+    

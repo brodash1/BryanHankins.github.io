@@ -170,6 +170,150 @@
     color: green;
     font-size: 15px; }
 
+/* Surface Dou */
+@media screen and (max-width: 540px) {
+  nav div li {
+    color: red; }
+  body {
+    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    max-width: 540px;
+    object-fit: contain; }
+  footer {
+    margin-top: -2rem;
+    margin-left: -1rem;
+    object-fit: contain; } }
+
+/* Galaxy Folded */
+@media screen and (max-width: 280px) {
+  body {
+    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    width: device-width;
+    zoom: 1; } }
+
+/*iPad Pro */
+@media screen and (max-width: 1024px) {
+  body {
+    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 1024px;
+    max-height: auto; }
+    body #TitlePAR .container-home {
+      font-size: 15px;
+      padding-left: 15px; }
+    body #TitlePAR .You {
+      font-size: 49px; } }
+
+/* iPad */
+@media screen and (max-width: 768px) {
+  body {
+    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    width: 280px; }
+    body #TitlePAR .container-home {
+      font-size: 15px;
+      padding-left: 15px; }
+    body #TitlePAR .You {
+      font-size: 49px; } }
+
+/* iPhoneX*/
+@media screen and (max-width: 375px) {
+  body {
+    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    width: 280px; }
+    body #TitlePAR .container-home {
+      font-size: 15px;
+      padding-left: 15px; }
+    body #TitlePAR .You {
+      font-size: 49px; } }
+
+/*iphone 6/7/8 */
+@media screen and (max-width: 280px) {
+  body {
+    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    width: 280px; }
+    body #TitlePAR .container-home {
+      font-size: 15px;
+      padding-left: 15px; }
+    body #TitlePAR .You {
+      font-size: 49px; } }
+
+/* iphone 6/7/8 plus */
+@media screen and (max-width: 414px) {
+  body {
+    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    width: 280px; }
+    body #TitlePAR {
+      color: navy; }
+      body #TitlePAR .container-home {
+        color: yellow;
+        font-size: 15px;
+        padding-left: 15px; }
+      body #TitlePAR p {
+        color: purple; }
+      body #TitlePAR .You {
+        color: aqua;
+        font-size: 49px; } }
+
+/* iphone 5/SE*/
+@media screen and (max-width: 320px) {
+  body {
+    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    max-width: 320px; }
+    body .links a,
+    body .name {
+      color: white;
+      font-size: 1.1rem;
+      text-transform: capitalize;
+      display: flex;
+      transition: var(--transition);
+      padding: 0; }
+    body .name {
+      padding: -1rem; }
+    body #TitlePAR .container-home {
+      font-size: 15px;
+      padding-left: 15px; }
+    body #TitlePAR .You {
+      font-size: 49px; } }
+
+/* Pixel 2XL*/
+@media screen and (max-width: 411px) {
+  body {
+    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    width: 280px; }
+    body #TitlePAR .container-home {
+      font-size: 15px;
+      padding-left: 15px; }
+    body #TitlePAR .You {
+      font-size: 49px; } }
+
+/*Pixel 2 */
+@media screen and (max-width: 411px) {
+  body {
+    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    width: 280px; }
+    body #TitlePAR .container-home {
+      font-size: 15px;
+      padding-left: 15px; }
+    body #TitlePAR .You {
+      font-size: 49px; } }
+
 :root {
   /* colors */
   --lavander: #967bb6;
@@ -249,7 +393,7 @@ ul {
 
 #TitlePAR {
   text-align: center;
-  background: url(img/LavenderBackground.jpg);
+  background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
   color: var(--white); }
 
 .TITLE-P1 {
