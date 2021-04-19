@@ -175,7 +175,7 @@
   nav div li {
     color: red; }
   body {
-    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background: url("../img/LavenderBackground.jpg") no-repeat center center fixed;
     background-size: cover;
     height: auto;
     max-width: 540px;
@@ -188,7 +188,7 @@
 /* Galaxy Folded */
 @media screen and (max-width: 280px) {
   body {
-    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background: url("../img/LavenderBackground.jpg") no-repeat center center fixed;
     background-size: cover;
     height: auto;
     width: device-width;
@@ -197,7 +197,7 @@
 /*iPad Pro */
 @media screen and (max-width: 1024px) {
   body {
-    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background: url("../img/LavenderBackground.jpg") no-repeat center center fixed;
     background-size: cover;
     width: 1024px;
     max-height: auto; }
@@ -210,7 +210,7 @@
 /* iPad */
 @media screen and (max-width: 768px) {
   body {
-    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background: url("../img/LavenderBackground.jpg") no-repeat center center fixed;
     background-size: cover;
     height: auto;
     width: 280px; }
@@ -223,7 +223,7 @@
 /* iPhoneX*/
 @media screen and (max-width: 375px) {
   body {
-    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background: url("../img/LavenderBackground.jpg") no-repeat center center fixed;
     background-size: cover;
     height: auto;
     width: 280px; }
@@ -236,7 +236,7 @@
 /*iphone 6/7/8 */
 @media screen and (max-width: 280px) {
   body {
-    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background: url("../img/LavenderBackground.jpg") no-repeat center center fixed;
     background-size: cover;
     height: auto;
     width: 280px; }
@@ -249,7 +249,7 @@
 /* iphone 6/7/8 plus */
 @media screen and (max-width: 414px) {
   body {
-    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background: url("../img/LavenderBackground.jpg") no-repeat center center fixed;
     background-size: cover;
     height: auto;
     width: 280px; }
@@ -268,7 +268,7 @@
 /* iphone 5/SE*/
 @media screen and (max-width: 320px) {
   body {
-    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background: url("../img/LavenderBackground.jpg") no-repeat center center fixed;
     background-size: cover;
     height: auto;
     max-width: 320px; }
@@ -291,7 +291,7 @@
 /* Pixel 2XL*/
 @media screen and (max-width: 411px) {
   body {
-    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background: url("../img/LavenderBackground.jpg") no-repeat center center fixed;
     background-size: cover;
     height: auto;
     width: 280px; }
@@ -304,7 +304,7 @@
 /*Pixel 2 */
 @media screen and (max-width: 411px) {
   body {
-    background: url(img/LavenderBackground.jpg) no-repeat center center fixed;
+    background: url("../img/LavenderBackground.jpg") no-repeat center center fixed;
     background-size: cover;
     height: auto;
     width: 280px; }
