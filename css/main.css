@@ -8249,3 +8249,6 @@ fieldset:disabled .btn {
   color: #fff;
   background-color: var(--bs-gray-dark);
   border-color: #198754; }
+
+.txt-decor-none {
+  text-decoration: none; }
