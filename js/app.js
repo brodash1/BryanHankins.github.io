@@ -1,6 +1,8 @@
 const about = document.querySelector(".card");
 const btns = document.querySelectorAll(".tab-btn");
 const articles = document.querySelectorAll(".content");
+
+
 about.addEventListener("click", function (e) {
     const id = e.target.dataset.id;
     if (id) {
@@ -15,5 +17,5 @@ about.addEventListener("click", function (e) {
         });
         const element = document.getElementById(id);
         element.classList.add("active")
-    }
-})
+    };
+});

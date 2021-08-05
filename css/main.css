@@ -8246,3 +8246,9 @@ fieldset:disabled .btn {
 
 .txt-decor-none {
   text-decoration: none; }
+
+.loader-img {
+  flex-direction: initial;
+  width: 100%;
+  height: 100%;
+  margin-top: 2rem; }
